@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+int array[9],n,c,value;
+cout<<"enter number of elements in array =";
+cin>>n;
+
+cout<<"enter the numbers="<<n<<"in to array\n";
+for(c=0; c<n; c++)
+cin>>array[c];
+
+cout<<"numbers=\n";
+for(c=0;c<n;c++)
+cout<<array[c]<<"\n";
+
+
+  return 0;
+}
