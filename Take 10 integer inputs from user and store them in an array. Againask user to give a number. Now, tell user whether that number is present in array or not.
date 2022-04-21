@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+int array[9],n,c,value;
+cout<<"enter number of elements in array =";
+cin>>n;
+
+cout<<"enter the numbers="<<n<<"in to array\n";
+for(c=0; c<n; c++)
+cin>>array[c];
+
+cout<<"enter the number ="<<endl;
+cin>>n;
+  if(array[c] == n)
+          {
+            cout<< "Element is found" <<endl;
+          }
+  else if (array[c]!=n)
+         {
+           cout<<"Element is not found" <<endl;
+         }
+
+  return 0;
+}
