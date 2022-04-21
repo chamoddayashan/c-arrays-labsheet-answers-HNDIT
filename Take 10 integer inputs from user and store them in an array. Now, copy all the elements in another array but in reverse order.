@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int n;
+ int c;
+ int d;
+ int a[100];
+ int b[100];
+
+ cout<<"enter the array size =";
+ cin>>n;
+
+ cout<<"type numbers to array =\n";
+
+ for(c=0;c<n;c++)
+ cin>>a[c];
+
+ for(c=n-1,d=0;c>=0;c--,d++)
+ b[d]=a[c];
+
+ for(c=0;c<n;c++)
+ a[c]=b[c];
+ cout<<"reverse array\n";
+
+ for(c=0;c<n;c++)
+ cout<<a[c]<<"\n";
+
+        return 0;
+}
